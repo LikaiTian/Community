@@ -31,3 +31,14 @@
 2023-06-25 12:40:22,282 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:59] Started LoggerTests in 4.012 seconds (JVM running for 4.979)
 2023-06-25 12:40:22,476 INFO [main] c.n.c.LoggerTests [LoggerTests.java:21] info log
 2023-06-25 12:40:22,485 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-25 12:57:35,836 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:50] Starting LoggerTests on LAPTOP-0D2L6532 with PID 3736 (started by memory in C:\Users\memory\Desktop\community)
+2023-06-25 12:57:35,838 INFO [main] c.n.c.LoggerTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-25 12:57:37,375 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e809ad7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-25 12:57:38,392 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-25 12:57:38,933 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-25 12:57:39,339 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-25 12:57:39,365 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-25 12:57:39,396 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-25 12:57:39,503 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:59] Started LoggerTests in 4.182 seconds (JVM running for 5.153)
+2023-06-25 12:57:39,706 INFO [main] c.n.c.LoggerTests [LoggerTests.java:21] info log
+2023-06-25 12:57:39,716 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
