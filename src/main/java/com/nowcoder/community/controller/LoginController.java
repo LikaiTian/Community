@@ -4,15 +4,16 @@ import com.google.code.kaptcha.Producer;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityConstant;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 import javax.imageio.ImageIO;
 import javax.mail.MessagingException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
@@ -23,6 +24,10 @@ import java.util.Map;
 
 @Controller
 public class LoginController implements CommunityConstant {
+
+
+    @Value("${server.servlet.context-path}")
+    private String contextPath;
 
     @Autowired
     private UserService userService;
@@ -67,7 +72,7 @@ public class LoginController implements CommunityConstant {
 
     @RequestMapping(path = "/kaptcha",method = RequestMethod.GET)
     @ResponseBody
-    public void getKaptcha(HttpServletResponse response, HttpSession session) throws IOException {
+    public void getKaptcha(@ApiIgnore HttpServletResponse response,@ApiIgnore HttpSession session) throws IOException {
         //生成验证码
         String text = producer.createText();
         BufferedImage image = producer.createImage(text);
@@ -80,5 +85,47 @@ public class LoginController implements CommunityConstant {
         OutputStream os = response.getOutputStream();
         ImageIO.write(image,"png",os);
 
+    }
+
+    @RequestMapping(path = "/login",method = RequestMethod.GET)
+    @ResponseBody
+    public Object login(String username,String password,String code,
+                        boolean rememberme,@ApiIgnore HttpSession session,
+                        @ApiIgnore HttpServletResponse response){
+        Map<String,Object> map=new HashMap<>();
+
+        //从session中取得验证码
+        String kaptcha = (String) session.getAttribute("kaptcha");
+
+        //检查验证码
+        if(StringUtils.isBlank(kaptcha)
+        ||StringUtils.isBlank(code)
+        ||!kaptcha.equals(code)){
+            map.put("kaptchaMsg","验证码错误!");
+            return map;
+        }
+
+        //检查账号、密码
+        int expiredSeconds=rememberme?REMEMBER_EXPIRED_SECONDS:DEFAULT_EXPIRED_SECONDS;
+            Map<String,Object> map0 = userService.login(username,password,expiredSeconds);
+            if(map0.containsKey("ticket")){
+                Cookie cookie=new Cookie("ticket",map0.get("ticket").toString());
+                cookie.setPath(contextPath);
+                cookie.setMaxAge(expiredSeconds);
+                response.addCookie(cookie);
+                map.put("loginMsg","登录成功！");
+                return map;
+            }else{
+                return map0;
+            }
+    }
+
+    @RequestMapping(path = "/logout",method = RequestMethod.GET)
+    @ResponseBody
+    public Object logout(@ApiIgnore @CookieValue("ticket") String ticket){
+        userService.logout(ticket);
+        Map<String,Object> map = new HashMap<>();
+        map.put("logoutMsg","退出登录成功！");
+        return map;
     }
 }
