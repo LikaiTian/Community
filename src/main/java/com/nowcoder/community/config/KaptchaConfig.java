@@ -10,6 +10,10 @@ import java.util.Properties;
 
 @Configuration
 public class KaptchaConfig {
+
+
+    //声明第三方Bean
+
     @Bean
     public Producer kaptchaProducer(){
 
