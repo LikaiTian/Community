@@ -1,0 +1,15 @@
+2023-06-25 11:59:27.732  INFO 3036 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests on LAPTOP-0D2L6532 with PID 3036 (started by memory in C:\Users\memory\Desktop\community)
+2023-06-25 11:59:27.733 DEBUG 3036 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-06-25 11:59:27.733  INFO 3036 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to default profiles: default
+2023-06-25 11:59:29.890  INFO 3036 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$520ca1a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-25 11:59:31.160  INFO 3036 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-25 11:59:31.717  INFO 3036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-25 11:59:32.114  INFO 3036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-06-25 11:59:32.140  INFO 3036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-06-25 11:59:32.172  INFO 3036 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-06-25 11:59:32.295  INFO 3036 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 4.897 seconds (JVM running for 5.727)
+2023-06-25 11:59:32.489 DEBUG 3036 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2023-06-25 11:59:32.489  INFO 3036 --- [main] com.nowcoder.community.LoggerTests       : info log
+2023-06-25 11:59:32.489  WARN 3036 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2023-06-25 11:59:32.489 ERROR 3036 --- [main] com.nowcoder.community.LoggerTests       : error log
+2023-06-25 11:59:32.497  INFO 3036 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
