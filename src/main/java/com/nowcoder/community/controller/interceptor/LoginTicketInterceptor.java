@@ -32,7 +32,7 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
         if(ticket!=null){
             //根据凭证找到loginTicket
             LoginTicket loginTicket = userService.findLoginTicket(ticket);
-
+            //判断存在该ticket对应的loginTicket，以及其状态为0表示在有效期内，以及过期时间晚于当前请求的时间
             if(loginTicket!=null && loginTicket.getStatus()==0&&loginTicket.getExpired().after(new Date())){
                 //根据凭证查询用户
                 User user = userService.findUserById(loginTicket.getUserId());
@@ -56,6 +56,4 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         hostHolder.clear();
     }
-
-
 }

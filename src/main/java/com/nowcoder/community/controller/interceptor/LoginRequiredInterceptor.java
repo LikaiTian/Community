@@ -14,6 +14,7 @@ import java.lang.reflect.Method;
 @Component
 public class LoginRequiredInterceptor implements HandlerInterceptor {
 
+    //存取当前线程的value
     @Autowired
     private HostHolder hostHolder;
 
@@ -23,6 +24,8 @@ public class LoginRequiredInterceptor implements HandlerInterceptor {
             HandlerMethod handlerMethod = (HandlerMethod) handler;
             Method method = handlerMethod.getMethod();
             LoginRequired loginRequired = method.getAnnotation(LoginRequired.class);
+
+            //判断是否包含 @LoginRequired 注解以及包含该注解的方法在执行时是否有 user 信息
             if(loginRequired!=null&& hostHolder.getUser()==null){
                 return false;
             }

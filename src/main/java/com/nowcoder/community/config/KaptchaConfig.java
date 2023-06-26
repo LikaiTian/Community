@@ -5,15 +5,17 @@ import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.google.code.kaptcha.util.Config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 import java.util.Properties;
+
+/**
+ * 生成验证码的配置类
+ */
 
 @Configuration
 public class KaptchaConfig {
 
 
     //声明第三方Bean
-
     @Bean
     public Producer kaptchaProducer(){
 
