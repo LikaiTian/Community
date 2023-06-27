@@ -8,7 +8,16 @@
         id,user_id,entity_type,entity_id,target_id,content,status,create_time
     </sql>
 
-    <select id="selectCommentsByEntity" resultType="Comment">
+    <sql id="insertFields">
+        user_id,entity_type,entity_id,target_id,content,status,create_time
+    </sql>
+
+    <insert id="insertComment" parameterType="Comment" keyProperty="id">
+        insert into comment(<include refid="insertFields"></include>)
+        values (#{userId},#{entityType},#{entityId},#{targetId},#{content},
+        #{status},#{createTime})
+    </insert>
+    <select id="selectCommentsByEntity" resultType="Comment" >
         select <include refid="selectFields"></include>
         from comment where status = 0 and entity_type = #{entityType} and entity_id = #{entityId} order by create_time asc limit #{offset}, #{limit}
     </select>

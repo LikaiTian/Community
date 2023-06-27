@@ -93,3 +93,111 @@
 2023-06-27 15:57:38,344 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 6 ms
 2023-06-27 15:57:38,395 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
 2023-06-27 15:57:38,509 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-27 23:23:14,337 INFO [Thread-9] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:23:14,359 INFO [Thread-9] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-06-27 23:23:14,375 INFO [Thread-9] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-06-27 23:23:15,614 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 17656 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-27 23:23:15,615 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-27 23:23:16,331 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$82182b19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-27 23:23:16,472 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-27 23:23:16,473 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:23:16,474 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-27 23:23:16,474 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-27 23:23:16,495 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-27 23:23:16,496 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 877 ms
+2023-06-27 23:23:16,906 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-27 23:23:16,980 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:23:16,995 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-27 23:23:17,092 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-27 23:23:17,092 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-27 23:23:17,100 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-27 23:23:17,147 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:23:17,152 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-27 23:23:17,154 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 1.613 seconds (JVM running for 26746.685)
+2023-06-27 23:23:17,157 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2023-06-27 23:23:17,959 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:50] Starting MapperTests on LAPTOP-0D2L6532 with PID 23752 (started by memory in C:\Users\memory\Desktop\community)
+2023-06-27 23:23:17,960 INFO [main] c.n.c.MapperTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-27 23:23:22,562 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a97320d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-27 23:23:23,878 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-27 23:23:30,846 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:23:31,293 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-27 23:23:31,323 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-27 23:23:31,363 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-27 23:23:33,351 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:59] Started MapperTests in 15.92 seconds (JVM running for 17.051)
+2023-06-27 23:23:41,321 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-27 23:23:41,518 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-27 23:23:41,668 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:23:41,670 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-06-27 23:23:41,686 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-06-27 23:49:47,199 INFO [Thread-19] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:49:48,278 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 17656 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-27 23:49:48,279 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-27 23:49:48,875 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$82182b19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-27 23:49:49,016 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-27 23:49:49,017 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:49:49,019 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-27 23:49:49,019 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-27 23:49:49,043 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-27 23:49:49,043 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 761 ms
+2023-06-27 23:49:49,389 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-27 23:49:49,477 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:49:49,494 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-27 23:49:49,629 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-27 23:49:49,632 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-27 23:49:49,651 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-27 23:49:49,738 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:49:49,745 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-27 23:49:49,746 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 1.515 seconds (JVM running for 28339.277)
+2023-06-27 23:49:49,751 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2023-06-27 23:49:49,922 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 20116 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-27 23:49:49,929 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-27 23:49:49,988 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-27 23:49:49,989 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-27 23:49:51,337 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b479d8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-27 23:49:51,789 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-27 23:49:51,807 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:49:51,817 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-27 23:49:51,818 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-27 23:49:51,942 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-27 23:49:51,944 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1955 ms
+2023-06-27 23:49:52,818 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-27 23:49:52,940 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:49:53,192 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-27 23:49:53,222 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-27 23:49:53,264 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-27 23:49:53,434 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:49:53,470 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:49:53,470 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2023-06-27 23:49:53,477 INFO [restartedMain] o.a.c.u.LifecycleBase [DirectJDKLog.java:173] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2023-06-27 23:49:53,477 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:49:53,478 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:49:53,481 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-27 23:49:53,494 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:50:08,476 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 1664 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-27 23:50:08,480 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-27 23:50:08,551 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-27 23:50:08,552 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-27 23:50:10,024 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36be0887] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-27 23:50:10,329 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-27 23:50:10,341 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:50:10,349 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-27 23:50:10,349 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-27 23:50:10,441 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-27 23:50:10,442 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1889 ms
+2023-06-27 23:50:11,161 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-27 23:50:11,266 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-27 23:50:11,444 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-27 23:50:11,461 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-27 23:50:11,490 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-27 23:50:11,608 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:50:11,622 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:50:11,622 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2023-06-27 23:50:11,627 INFO [restartedMain] o.a.c.u.LifecycleBase [DirectJDKLog.java:173] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2023-06-27 23:50:11,628 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:50:11,628 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
+2023-06-27 23:50:11,631 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-27 23:50:11,640 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
