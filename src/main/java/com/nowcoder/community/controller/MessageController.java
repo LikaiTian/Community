@@ -14,10 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.lang.reflect.MalformedParameterizedTypeException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Controller
 public class MessageController {
@@ -89,6 +86,13 @@ public class MessageController {
         }
         res.put("letters",letters);
         res.put("target",getLetterTarget(conversationId));
+
+        //设置已读
+        List<Integer> ids = getLetterIds(letterList);
+        if(ids!=null){
+            messageService.readMessage(ids);
+        }
+
         return CommunityUtil.getJSONString(0,"成功!",res);
     }
 
@@ -100,5 +104,40 @@ public class MessageController {
             return userService.findUserById(d1);
         }
         return userService.findUserById(d0);
+    }
+
+    private List<Integer> getLetterIds(List<Message> letterList){
+        List<Integer> ids = new ArrayList<>();
+        if(letterList!=null){
+            for(Message message:letterList){
+                if(hostHolder.getUser().getId()==message.getToId()&&message.getStatus()==0){
+                    ids.add(message.getId());
+                }
+            }
+        }
+        return ids;
+    }
+
+    @RequestMapping(path = "/letter/send",method = RequestMethod.POST)
+    @ResponseBody
+    public String sendLetter(String toName,String content){
+        User target = userService.findUserByName(toName);
+        if(target==null){
+            return CommunityUtil.getJSONString(1,"目标用户不存在！");
+        }
+        Message message = new Message();
+        message.setFromId(hostHolder.getUser().getId());
+        message.setToId(target.getId());
+        if(message.getFromId()<message.getToId()){
+            message.setConversationId(message.getFromId()+"_"+message.getToId());
+        }else{
+            message.setConversationId(message.getToId()+"_"+message.getFromId());
+        }
+        message.setContent(content);
+        message.setCreateTime(new Date());
+        message.setStatus(0);
+        messageService.addMessage(message);
+
+        return CommunityUtil.getJSONString(0,"发送成功！");
     }
 }
