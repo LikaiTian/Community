@@ -66,7 +66,7 @@ public class MessageController {
     @ResponseBody
     public String getLetterDetail(String conversationId,Page page){
 
-//        Integer.valueOf("abc");
+//        Integer.valueOf("abc");11_
         Map<String,Object> res = new HashMap<>();
 
         //分页信息
@@ -90,7 +90,7 @@ public class MessageController {
 
         //设置已读
         List<Integer> ids = getLetterIds(letterList);
-        if(ids!=null){
+        if(ids.size()>0){
             messageService.readMessage(ids);
         }
 
