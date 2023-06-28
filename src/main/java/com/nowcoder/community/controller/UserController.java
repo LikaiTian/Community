@@ -2,6 +2,7 @@ package com.nowcoder.community.controller;
 
 import com.nowcoder.community.annotation.LoginRequired;
 import com.nowcoder.community.entity.User;
+import com.nowcoder.community.service.LikeService;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityUtil;
 import com.nowcoder.community.util.HostHolder;
@@ -9,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -44,6 +46,9 @@ public class UserController {
 
     @Autowired
     private HostHolder hostHolder;
+
+    @Autowired
+    private LikeService likeService;
 
     @LoginRequired
     @RequestMapping(path = "/setting",method = RequestMethod.GET)
@@ -105,5 +110,20 @@ public class UserController {
         } catch (IOException e) {
             logger.error("读取头像失败: " + e.getMessage());
         }
+    }
+
+    //个人主页
+    @RequestMapping(path = "/profile",method = RequestMethod.GET)
+    @ResponseBody
+    public String getProfilePage(int userId){
+        Map<String,Object> map = new HashMap<>();
+        User user = userService.findUserById(userId);
+        if(user==null){
+            throw new IllegalArgumentException("用户不存在！");
+        }
+        map.put("user",user);
+        int likeCount = likeService.findUserLikeCount(userId);
+        map.put("likeCount",likeCount);
+        return CommunityUtil.getJSONString(0,"查询成功！",map);
     }
 }
