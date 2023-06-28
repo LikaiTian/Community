@@ -5,6 +5,7 @@ import com.nowcoder.community.entity.Page;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.DiscussPostService;
 import com.nowcoder.community.service.UserService;
+import com.nowcoder.community.util.CommunityUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -46,6 +47,12 @@ public class HomeController {
             }
         }
         return discussPosts;
+    }
+
+    @RequestMapping(path = "/error",method = RequestMethod.GET)
+    @ResponseBody
+    public String getErrorPage(){
+        return CommunityUtil.getJSONString(2,"错误页面！");
     }
 
 }
