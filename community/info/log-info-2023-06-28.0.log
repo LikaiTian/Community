@@ -1,0 +1,755 @@
+2023-06-28 10:44:35,962 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 10708 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 10:44:35,970 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 10:44:36,037 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 10:44:36,037 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 10:44:37,485 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10405154] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 10:44:37,856 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 10:44:37,870 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 10:44:37,878 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 10:44:37,879 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 10:44:37,970 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 10:44:37,971 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1933 ms
+2023-06-28 10:44:38,755 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 10:44:38,860 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 10:44:38,905 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 10:44:39,054 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 10:44:39,074 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 10:44:39,107 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 10:44:39,245 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 10:44:39,267 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 10:44:39,269 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.891 seconds (JVM running for 5.455)
+2023-06-28 10:44:42,888 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 10:44:42,888 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 10:44:42,896 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 8 ms
+2023-06-28 10:45:15,977 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 10:45:16,119 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 10:47:04,659 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 3144 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 10:47:04,662 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 10:47:04,709 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 10:47:04,709 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 10:47:05,895 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d03bad24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 10:47:06,303 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 10:47:06,317 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 10:47:06,325 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 10:47:06,325 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 10:47:06,417 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 10:47:06,418 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1709 ms
+2023-06-28 10:47:07,132 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 10:47:07,237 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 10:47:07,271 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 10:47:07,394 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 10:47:07,408 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 10:47:07,440 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 10:47:07,574 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 10:47:07,594 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 10:47:07,597 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.353 seconds (JVM running for 4.651)
+2023-06-28 10:47:38,208 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 10:47:38,208 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 10:47:38,215 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 7 ms
+2023-06-28 10:47:38,245 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 10:47:38,359 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 10:55:35,636 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 4328 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 10:55:35,641 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 10:55:35,697 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 10:55:35,698 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 10:55:37,343 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c4127e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 10:55:37,687 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 10:55:37,701 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 10:55:37,709 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 10:55:37,709 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 10:55:37,801 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 10:55:37,801 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2103 ms
+2023-06-28 10:55:38,548 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 10:55:38,654 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 10:55:38,697 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 10:55:38,837 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 10:55:38,852 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 10:55:38,881 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 10:55:38,999 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 10:55:39,019 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 10:55:39,022 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.948 seconds (JVM running for 5.288)
+2023-06-28 10:57:01,175 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 10:57:01,175 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 10:57:01,183 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 7 ms
+2023-06-28 10:57:01,213 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 10:57:01,347 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 11:28:16,875 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 16556 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 11:28:16,880 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 11:28:16,985 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 11:28:16,986 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 11:28:18,357 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$608a29c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 11:28:18,703 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 11:28:18,718 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 11:28:18,726 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 11:28:18,727 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 11:28:18,826 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 11:28:18,826 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1840 ms
+2023-06-28 11:28:19,733 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 11:28:19,846 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 11:28:19,885 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 11:28:20,034 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 11:28:20,054 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 11:28:20,109 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 11:28:20,364 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 11:28:20,397 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 11:28:20,403 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.162 seconds (JVM running for 5.585)
+2023-06-28 11:28:36,200 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 11:28:36,202 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 11:28:36,230 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 27 ms
+2023-06-28 11:28:36,277 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 11:28:36,394 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 12:19:58,164 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 16804 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 12:19:58,169 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 12:19:58,274 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 12:19:58,275 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 12:19:59,935 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$61504e5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 12:20:00,388 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 12:20:00,401 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 12:20:00,408 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 12:20:00,409 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 12:20:00,497 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 12:20:00,498 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2223 ms
+2023-06-28 12:20:01,299 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 12:20:01,455 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 12:20:01,510 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 12:20:01,715 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 12:20:01,732 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 12:20:01,764 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 12:20:01,899 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 12:20:01,921 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 12:20:01,925 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.28 seconds (JVM running for 5.529)
+2023-06-28 12:20:12,243 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 12:20:12,244 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 12:20:12,257 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 13 ms
+2023-06-28 12:20:12,277 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:20:12,296 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 12:20:12,406 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 12:20:12,459 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:20:12,487 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.MessageService.findLettersCount].
+2023-06-28 12:20:12,494 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.MessageService.findLetters].
+2023-06-28 12:20:12,498 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:20:12,500 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:20:12,503 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.MessageService.readMessage].
+2023-06-28 12:20:12,620 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:20:12,623 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:20:12],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:51,680 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:51],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:51,689 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:51,963 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:51],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:51,966 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,036 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,039 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,054 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,057 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,092 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,096 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,102 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,103 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,105 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,107 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,118 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,121 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,127 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,130 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,236 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,236 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,236 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:52,241 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,241 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:52,242 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:54,470 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:54],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:54,481 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:54],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:21:54,619 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:54],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:21:54,624 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:21:54],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:24:42,423 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 13456 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 12:24:42,425 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 12:24:42,462 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 12:24:42,462 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 12:24:43,583 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac450250] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 12:24:43,987 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 12:24:43,999 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 12:24:44,006 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 12:24:44,007 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 12:24:44,093 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 12:24:44,093 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1631 ms
+2023-06-28 12:24:44,830 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 12:24:44,976 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 12:24:45,034 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 12:24:45,231 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 12:24:45,246 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 12:24:45,277 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 12:24:45,400 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 12:24:45,421 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 12:24:45,424 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.41 seconds (JVM running for 4.613)
+2023-06-28 12:25:00,779 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 12:25:00,780 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 12:25:00,789 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 9 ms
+2023-06-28 12:25:00,807 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:00],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:25:00,824 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 12:25:00,930 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 12:25:00,980 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:00],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:25:01,003 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.MessageService.findLettersCount].
+2023-06-28 12:25:01,011 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.MessageService.findLetters].
+2023-06-28 12:25:01,015 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:25:01,017 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:25:01,021 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.MessageService.readMessage].
+2023-06-28 12:25:01,114 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:25:01,116 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:25:01,251 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:25:01,256 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:25:01],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:31:25,368 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 8452 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 12:31:25,371 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 12:31:25,406 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 12:31:25,406 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 12:31:26,595 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d9528ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 12:31:27,012 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 12:31:27,024 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 12:31:27,031 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 12:31:27,031 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 12:31:27,117 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 12:31:27,117 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1711 ms
+2023-06-28 12:31:27,838 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 12:31:27,978 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 12:31:28,038 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 12:31:28,252 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 12:31:28,267 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 12:31:28,298 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 12:31:28,422 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 12:31:28,453 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 12:31:28,456 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.486 seconds (JVM running for 4.637)
+2023-06-28 12:31:40,661 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 12:31:40,662 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 12:31:40,674 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 12 ms
+2023-06-28 12:31:40,699 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:40],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:31:40,721 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 12:31:40,829 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 12:31:40,878 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:40],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:31:40,902 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:40],访问了[com.nowcoder.community.service.MessageService.findLettersCount].
+2023-06-28 12:31:40,909 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:40],访问了[com.nowcoder.community.service.MessageService.findLetters].
+2023-06-28 12:31:40,913 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:40],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:31:40,916 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:40],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:31:40,919 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:40],访问了[com.nowcoder.community.service.MessageService.readMessage].
+2023-06-28 12:31:41,008 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:41],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:31:41,011 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:31:41],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:36:03,636 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 12672 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 12:36:03,639 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 12:36:03,689 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 12:36:03,690 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 12:36:04,807 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$faf10bec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 12:36:05,208 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 12:36:05,220 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 12:36:05,227 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 12:36:05,227 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 12:36:05,309 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 12:36:05,310 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1620 ms
+2023-06-28 12:36:06,035 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 12:36:06,177 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 12:36:06,232 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 12:36:06,431 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 12:36:06,448 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 12:36:06,479 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 12:36:06,598 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 12:36:06,619 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 12:36:06,622 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.399 seconds (JVM running for 4.584)
+2023-06-28 12:36:10,842 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 12:36:10,842 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 12:36:10,851 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 8 ms
+2023-06-28 12:36:10,869 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:36:10],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 12:36:10,886 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 12:36:10,990 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 12:36:11,039 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:36:11],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:36:11,063 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:36:11],访问了[com.nowcoder.community.service.MessageService.findLettersCount].
+2023-06-28 12:36:11,070 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:36:11],访问了[com.nowcoder.community.service.MessageService.findLetters].
+2023-06-28 12:36:11,074 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:36:11],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 12:36:11,077 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 12:36:11],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:06:30,883 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 3100 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 16:06:30,886 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 16:06:30,945 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 16:06:30,945 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 16:06:32,711 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 16:06:32,714 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 16:06:32,743 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2023-06-28 16:06:33,117 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f70331c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 16:06:33,649 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 16:06:33,666 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 16:06:33,674 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 16:06:33,675 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 16:06:33,931 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 16:06:33,931 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2985 ms
+2023-06-28 16:06:35,053 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 16:06:35,290 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 16:06:35,382 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 16:06:35,785 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 16:06:35,807 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 16:06:35,861 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 16:06:36,004 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 16:06:36,025 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 16:06:36,028 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 6.022 seconds (JVM running for 7.752)
+2023-06-28 16:56:44,771 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 15424 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 16:56:44,775 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 16:56:44,819 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 16:56:44,820 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 16:56:45,849 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 16:56:45,851 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 16:56:45,878 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2023-06-28 16:56:46,196 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da3ae7cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 16:56:46,654 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 16:56:46,666 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 16:56:46,674 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 16:56:46,674 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 16:56:46,779 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 16:56:46,781 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1961 ms
+2023-06-28 16:56:47,707 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 16:56:47,893 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 16:56:47,954 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 16:56:48,334 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 16:56:48,352 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 16:56:48,388 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 16:56:48,527 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 16:56:48,550 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 16:56:48,553 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.236 seconds (JVM running for 5.579)
+2023-06-28 16:57:20,934 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 16:57:20,935 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 16:57:20,945 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 10 ms
+2023-06-28 16:57:20,971 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:20,994 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 16:57:21,134 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 16:57:21,198 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:21,532 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:21,535 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:21,626 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:21,630 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:21,646 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:21,649 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:21,718 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:21,721 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:21,730 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:21,733 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:21,910 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:21,913 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:21,918 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:21,921 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:22,044 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:22],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:22,044 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:22],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:22,044 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:22],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:22,044 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:22],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:22,049 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:22,050 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:22,050 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:22,050 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:32,254 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:32],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:32,264 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:32],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:57:34,356 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:34],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:57:34,365 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:57:34],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:59:19,295 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:19],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:59:19,300 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:19],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:59:19,307 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:19],访问了[com.nowcoder.community.service.LikeService.like].
+2023-06-28 16:59:19,444 INFO [http-nio-8080-exec-2] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2023-06-28 16:59:19,446 INFO [http-nio-8080-exec-2] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2023-06-28 16:59:20,752 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:20],访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount].
+2023-06-28 16:59:20,754 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:20],访问了[com.nowcoder.community.service.LikeService.findEntityLikeStatus].
+2023-06-28 16:59:20,788 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:59:20,793 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:20],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 16:59:36,378 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:36],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 16:59:36,395 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 16:59:36],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:00:13,185 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:00:13],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 17:00:13,189 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:00:13],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:00:20,102 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:00:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 17:00:20,109 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:00:20],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:00:20,117 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:00:20],访问了[com.nowcoder.community.service.UserService.login].
+2023-06-28 17:01:18,728 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:01:18],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 17:01:18,731 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:01:18],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:01:18,734 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:01:18],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:01:18,737 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:01:18],访问了[com.nowcoder.community.service.LikeService.findUserLikeCount].
+2023-06-28 17:01:18,763 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:01:18],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 17:01:18,766 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:01:18],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:02:06,857 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:02:06],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 17:02:06,860 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:02:06],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:02:06,863 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:02:06],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:02:06,866 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:02:06],访问了[com.nowcoder.community.service.LikeService.findUserLikeCount].
+2023-06-28 17:02:06,878 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:02:06],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 17:02:06,880 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:02:06],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:02:55,366 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 4140 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 17:02:55,370 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 17:02:55,423 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 17:02:55,424 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 17:02:56,359 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 17:02:56,362 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 17:02:56,388 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2023-06-28 17:02:56,721 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eee30dd5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 17:02:57,143 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 17:02:57,155 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 17:02:57,163 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 17:02:57,163 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 17:02:57,311 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 17:02:57,311 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1887 ms
+2023-06-28 17:02:58,222 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 17:02:58,416 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 17:02:58,472 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 17:02:58,794 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 17:02:58,810 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 17:02:58,839 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 17:02:58,960 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 17:02:58,980 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 17:02:58,983 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.042 seconds (JVM running for 5.238)
+2023-06-28 17:03:01,238 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 17:03:01,239 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 17:03:01,250 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 11 ms
+2023-06-28 17:03:01,269 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:03:01],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 17:03:01,286 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 17:03:01,393 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 17:03:01,442 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:03:01],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:03:01,457 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:03:01],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 17:03:01,460 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 17:03:01],访问了[com.nowcoder.community.service.LikeService.findUserLikeCount].
+2023-06-28 17:03:01,572 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2023-06-28 17:03:01,574 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2023-06-28 17:36:43,021 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 14672 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 17:36:43,025 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 17:36:43,100 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 17:36:43,100 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 17:36:44,550 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 17:36:44,554 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 17:36:44,593 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2023-06-28 17:36:45,085 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2997f027] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 17:36:45,869 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 17:36:45,883 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 17:36:45,893 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 17:36:45,894 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 17:36:46,124 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 17:36:46,125 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 3025 ms
+2023-06-28 17:36:47,474 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 17:36:47,664 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 17:36:47,718 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 17:36:48,045 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 17:36:48,061 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 17:36:48,091 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 17:36:48,219 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 17:36:48,240 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 17:36:48,243 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 5.801 seconds (JVM running for 7.295)
+2023-06-28 18:22:06,737 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 10964 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 18:22:06,740 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 18:22:06,789 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 18:22:06,790 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 18:22:07,755 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 18:22:07,758 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 18:22:07,785 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2023-06-28 18:22:08,118 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b633d5ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 18:22:08,554 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 18:22:08,567 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 18:22:08,574 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 18:22:08,574 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 18:22:08,748 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 18:22:08,748 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1958 ms
+2023-06-28 18:22:09,760 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 18:22:09,972 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 18:22:10,048 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 18:22:10,410 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 18:22:10,428 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 18:22:10,460 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 18:22:10,606 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 18:22:10,632 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 18:22:10,635 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.322 seconds (JVM running for 5.703)
+2023-06-28 18:22:17,034 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 18:22:17,035 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 18:22:17,044 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 9 ms
+2023-06-28 18:22:17,066 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,083 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 18:22:17,194 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 18:22:17,246 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:17,548 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,552 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:17,635 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,638 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:17,654 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,656 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:17,701 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,704 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:17,713 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,715 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:17,779 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,782 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:17,881 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,886 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:17,892 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:17,895 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:17],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:18,034 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:18],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:18,034 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:18],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:18,034 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:18],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:18,041 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:18],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:18,042 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:18],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:18,043 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:18],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:20,483 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:20,493 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:20],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:21,856 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:21],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:21,859 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:21],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:49,901 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:49],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:49,909 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:49],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:22:49,923 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:49],访问了[com.nowcoder.community.service.FollowService.follow].
+2023-06-28 18:22:50,129 INFO [http-nio-8080-exec-5] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2023-06-28 18:22:50,132 INFO [http-nio-8080-exec-5] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2023-06-28 18:22:51,638 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:51],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:22:51,643 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:22:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:23:13,878 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:23:13],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:23:13,888 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:23:13],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:23:13,896 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:23:13],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:23:13,905 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:23:13],访问了[com.nowcoder.community.service.LikeService.findUserLikeCount].
+2023-06-28 18:23:13,918 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:23:13],访问了[com.nowcoder.community.service.FollowService.findFolloweeCount].
+2023-06-28 18:23:13,921 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:23:13],访问了[com.nowcoder.community.service.FollowService.findFollowerCount].
+2023-06-28 18:23:13,923 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:23:13],访问了[com.nowcoder.community.service.FollowService.hasFollowed].
+2023-06-28 18:24:03,630 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:03],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:24:03,637 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:03],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:24:03,646 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:03],访问了[com.nowcoder.community.service.FollowService.unfollow].
+2023-06-28 18:24:06,798 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:06],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:24:06,806 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:06],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:24:06,813 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:06],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:24:06,821 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:06],访问了[com.nowcoder.community.service.LikeService.findUserLikeCount].
+2023-06-28 18:24:06,824 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:06],访问了[com.nowcoder.community.service.FollowService.findFolloweeCount].
+2023-06-28 18:24:06,826 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:06],访问了[com.nowcoder.community.service.FollowService.findFollowerCount].
+2023-06-28 18:24:06,828 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:06],访问了[com.nowcoder.community.service.FollowService.hasFollowed].
+2023-06-28 18:24:49,637 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 5648 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 18:24:49,641 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 18:24:49,679 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 18:24:49,680 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 18:24:50,648 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 18:24:50,650 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 18:24:50,677 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2023-06-28 18:24:51,009 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8e62b2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 18:24:51,472 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 18:24:51,485 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 18:24:51,494 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 18:24:51,494 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 18:24:51,653 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 18:24:51,654 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1974 ms
+2023-06-28 18:24:52,670 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 18:24:52,880 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 18:24:52,941 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 18:24:53,272 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 18:24:53,287 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 18:24:53,316 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 18:24:53,446 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 18:24:53,468 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 18:24:53,470 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.312 seconds (JVM running for 5.679)
+2023-06-28 18:24:58,024 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 18:24:58,024 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 18:24:58,033 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 9 ms
+2023-06-28 18:24:58,051 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:58],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 18:24:58,068 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 18:24:58,174 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 18:24:58,222 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 18:24:58,244 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 18:24:58],访问了[com.nowcoder.community.service.FollowService.follow].
+2023-06-28 18:24:58,346 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2023-06-28 18:24:58,348 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2023-06-28 19:16:32,107 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 8600 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 19:16:32,137 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 19:16:32,180 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 19:16:32,180 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 19:16:33,362 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 19:16:33,366 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 19:16:33,411 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2023-06-28 19:16:33,914 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10d4fe73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 19:16:34,476 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 19:16:34,492 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 19:16:34,501 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 19:16:34,501 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 19:16:34,705 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 19:16:34,705 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2525 ms
+2023-06-28 19:16:35,874 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 19:16:36,222 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 19:16:36,364 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 19:16:36,723 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 19:16:36,740 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 19:16:36,771 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 19:16:36,922 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 19:16:36,945 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 19:16:36,949 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 5.312 seconds (JVM running for 6.661)
+2023-06-28 19:16:38,839 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 19:16:38,839 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 19:16:38,854 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 14 ms
+2023-06-28 19:16:38,881 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:38],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:38,902 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 19:16:39,079 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 19:16:39,147 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:39,564 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:39,568 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:39,690 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:39,694 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:39,711 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:39,716 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:39,805 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:39,809 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:39,821 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:39,825 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:39,989 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:39,990 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:39,995 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:39,998 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:40,005 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:40],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:40,010 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:40],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:40,099 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:40],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:40,100 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:40],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:40,100 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:40],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:40,104 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:40],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:40,106 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:40],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:40,106 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:40],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:44,945 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:44],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:44,950 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:44],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:16:59,937 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:59],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:16:59,946 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:16:59],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:17:00,805 INFO [http-nio-8080-exec-9] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2023-06-28 19:17:00,807 INFO [http-nio-8080-exec-9] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2023-06-28 19:17:08,927 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:17:08],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:17:08,931 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:17:08],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:18:53,243 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 8664 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 19:18:53,246 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 19:18:53,293 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 19:18:53,293 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 19:18:54,230 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 19:18:54,232 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 19:18:54,259 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2023-06-28 19:18:54,592 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e68f606] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 19:18:55,023 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 19:18:55,036 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 19:18:55,043 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 19:18:55,043 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 19:18:55,222 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 19:18:55,223 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1929 ms
+2023-06-28 19:18:56,164 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 19:18:56,355 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 19:18:56,424 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 19:18:56,744 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 19:18:56,759 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 19:18:56,788 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 19:18:56,919 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 19:18:56,942 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 19:18:56,944 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.146 seconds (JVM running for 5.549)
+2023-06-28 19:19:12,424 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 14992 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 19:19:12,427 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 19:19:12,464 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 19:19:12,464 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 19:19:13,422 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 19:19:13,425 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 19:19:13,452 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2023-06-28 19:19:13,804 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$383951f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 19:19:14,234 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 19:19:14,247 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 19:19:14,255 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 19:19:14,255 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 19:19:14,406 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 19:19:14,406 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1941 ms
+2023-06-28 19:19:15,372 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 19:19:15,564 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 19:19:15,620 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 19:19:15,936 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 19:19:15,951 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 19:19:15,979 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 19:19:16,111 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 19:19:16,132 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 19:19:16,135 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.134 seconds (JVM running for 5.402)
+2023-06-28 19:19:20,276 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 19:19:20,277 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 19:19:20,292 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 15 ms
+2023-06-28 19:19:20,316 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:20,333 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 19:19:20,436 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 19:19:20,485 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:20],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:20,797 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2023-06-28 19:19:20,799 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2023-06-28 19:19:29,993 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:29],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:29,998 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:29],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,269 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,273 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,342 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,345 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,359 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,362 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,573 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,577 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,579 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,584 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,589 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,594 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,734 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,734 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,735 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,735 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,740 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,740 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,740 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,741 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:30,745 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:30,749 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:30],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:32,571 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:32],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:32,575 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:32],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:32,654 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:32],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:32,657 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:32],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:52,813 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:52,826 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:19:52,890 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:52],访问了[com.nowcoder.community.service.UserService.login].
+2023-06-28 19:19:52,959 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:52],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:19:52,962 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:19:52],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:28:11,683 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 6504 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
+2023-06-28 19:28:11,686 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-06-28 19:28:11,735 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 19:28:11,736 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 19:28:13,157 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-28 19:28:13,161 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-28 19:28:13,195 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2023-06-28 19:28:13,590 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a25f6b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-28 19:28:14,113 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2023-06-28 19:28:14,128 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-28 19:28:14,137 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-28 19:28:14,138 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-06-28 19:28:14,422 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-28 19:28:14,423 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2687 ms
+2023-06-28 19:28:15,473 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-28 19:28:15,722 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-28 19:28:15,821 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2023-06-28 19:28:16,472 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:160] Context refreshed
+2023-06-28 19:28:16,497 INFO [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java:163] Found 1 custom documentation plugin(s)
+2023-06-28 19:28:16,592 INFO [restartedMain] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java:41] Scanning for api listing references
+2023-06-28 19:28:16,770 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-28 19:28:16,805 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-06-28 19:28:16,810 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 5.837 seconds (JVM running for 7.334)
+2023-06-28 19:28:18,641 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 19:28:18,641 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2023-06-28 19:28:18,651 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 10 ms
+2023-06-28 19:28:18,676 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:18],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:18,767 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2023-06-28 19:28:18,768 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2023-06-28 19:28:20,268 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,353 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,368 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,418 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,425 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,426 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,621 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,621 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,621 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,621 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,622 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:20,630 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:20],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:26,739 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:26],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,080 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,123 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,130 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,173 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,175 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,206 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,208 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,213 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,306 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,307 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:27,308 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:27],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:55,766 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:55],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:28:59,034 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:28:59],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:29:04,448 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:29:04],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:29:24,113 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:29:24],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:29:24,193 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:29:24],访问了[com.nowcoder.community.service.UserService.login].
+2023-06-28 19:29:24,224 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-28 19:29:24,349 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-28 19:29:24,439 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:29:24],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:29:24,456 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:29:24],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:30:03,233 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:30:03],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:30:03,236 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:30:03],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-06-28 19:30:03,248 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:30:03],访问了[com.nowcoder.community.service.FollowService.follow].
+2023-06-28 19:30:31,104 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:30:31],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-06-28 19:30:31,109 INFO [http-nio-8080-exec-7] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:35] 用户[0:0:0:0:0:0:0:1],在[2023-06-28 19:30:31],访问了[com.nowcoder.community.service.UserService.findUserById].
