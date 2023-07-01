@@ -1,9 +1,7 @@
 package com.nowcoder.community.controller;
 
-import com.nowcoder.community.entity.Comment;
-import com.nowcoder.community.entity.DiscussPost;
-import com.nowcoder.community.entity.Page;
-import com.nowcoder.community.entity.User;
+import com.nowcoder.community.entity.*;
+import com.nowcoder.community.event.EventProducer;
 import com.nowcoder.community.service.CommentService;
 import com.nowcoder.community.service.DiscussPostService;
 import com.nowcoder.community.service.LikeService;
@@ -38,6 +36,9 @@ public class DiscussPostController implements CommunityConstant {
     @Autowired
     private LikeService likeService;
 
+    @Autowired
+    private EventProducer producer;
+
     @RequestMapping(path = "/add",method = RequestMethod.POST)
     @ResponseBody
     public String addDiscussPost(String title,String content){
@@ -52,6 +53,14 @@ public class DiscussPostController implements CommunityConstant {
         post.setUserId(user.getId());
         post.setCreateTime(new Date());
         discussPostService.addDiscussPost(post);
+
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(user.getId())
+                .setEventType(ENTITY_TYPE_POST)
+                .setEventId(post.getId());
+
+        producer.fireEvent(event);
 
         return CommunityUtil.getJSONString(0,"发布成功！");
     }
