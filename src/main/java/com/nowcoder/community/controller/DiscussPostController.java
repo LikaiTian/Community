@@ -157,4 +157,51 @@ public class DiscussPostController implements CommunityConstant {
 
         return CommunityUtil.getJSONString(0,"查询成功！",map);
     }
+
+    @RequestMapping(path = "/top",method = RequestMethod.POST)
+    @ResponseBody
+    public String setTop(int id){
+        int num = discussPostService.updateType(id,1);
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(hostHolder.getUser().getId())
+                .setEventType(ENTITY_TYPE_POST)
+                .setEventId(id);
+
+        producer.fireEvent(event);
+
+        return CommunityUtil.getJSONString(0);
+    }
+
+    @RequestMapping(path = "/wonderful",method = RequestMethod.POST)
+    @ResponseBody
+    public String setWonderful(int id){
+        int num = discussPostService.updateStatus(id,1);
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(hostHolder.getUser().getId())
+                .setEventType(ENTITY_TYPE_POST)
+                .setEventId(id);
+
+        producer.fireEvent(event);
+
+        return CommunityUtil.getJSONString(0);
+    }
+
+    @RequestMapping(path = "/delete",method = RequestMethod.POST)
+    @ResponseBody
+    public String setDelet(int id){
+        int num = discussPostService.updateStatus(id,2);
+
+        // 触发删除帖子的事件
+        Event event = new Event()
+                .setTopic(TOPIC_DELETE)
+                .setUserId(hostHolder.getUser().getId())
+                .setEventType(ENTITY_TYPE_POST)
+                .setEventId(id);
+
+        producer.fireEvent(event);
+
+        return CommunityUtil.getJSONString(0);
+    }
 }

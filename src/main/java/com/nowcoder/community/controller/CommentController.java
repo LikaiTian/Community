@@ -64,11 +64,12 @@ public class CommentController implements CommunityConstant {
         }
         producer.fireEvent(event);
 
+        //由于评论可能导致帖子评论数量增加，触发es上的帖子更新事件
         if(comment.getEntityType()==ENTITY_TYPE_POST){
             event = new Event()
                     .setTopic(TOPIC_PUBLISH)
                     .setUserId(hostHolder.getUser().getId())
-                    .setEventType(ENTITY_TYPE_POST)
+                    .setEventType(comment.getEntityType())
                     .setEventId(comment.getEntityId());
 
             producer.fireEvent(event);

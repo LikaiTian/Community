@@ -34,6 +34,7 @@ public class EventConsumer implements CommunityConstant {
     @Autowired
     private ElasticSearchService elasticSearchService;
 
+    //消费评论、点赞和关注事件，把这些信息存到数据库中
     @KafkaListener(topics = {TOPIC_COMMENT,TOPIC_LIKE,TOPIC_FOLLOW})
     public void handleCommentMessage(ConsumerRecord record){
         if(record==null||record.value()==null){
@@ -71,7 +72,7 @@ public class EventConsumer implements CommunityConstant {
         messageService.addMessage(message);
     }
 
-    //消费发帖事件
+    //消费发帖事件，将其保存至es里面，供完成搜索操作
     @KafkaListener(topics = {TOPIC_PUBLISH})
     public void handlePublishMessage(ConsumerRecord record){
         if(record==null||record.value()==null){
@@ -85,5 +86,20 @@ public class EventConsumer implements CommunityConstant {
         }
         DiscussPost post = discussPostService.findDiscussPostById(event.getEventId());
         elasticSearchService.saveDiscussPost(post);
+    }
+
+    //消费发帖事件，将其保存至es里面，供完成搜索操作
+    @KafkaListener(topics = {TOPIC_DELETE})
+    public void handleDeleteMessage(ConsumerRecord record){
+        if(record==null||record.value()==null){
+            logger.error("消息内容为空！");
+            return;
+        }
+        Event event = JSONObject.parseObject(record.value().toString(),Event.class);
+        if(event == null){
+            logger.error("消息格式不正确！");
+            return;
+        }
+        elasticSearchService.deleteDiscussPost(event.getEventId());
     }
 }

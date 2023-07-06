@@ -29,6 +29,10 @@ public interface MessageMapper {
     //修改消息状态
     int updateStatus(List<Integer> ids,int status);
 
+
+
+
+
     //查某一个主题下最新的通知
     Message selectLatestNotice(int userId,String topic);
 

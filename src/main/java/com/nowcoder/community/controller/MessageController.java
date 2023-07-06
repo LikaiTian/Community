@@ -148,7 +148,9 @@ public class MessageController implements CommunityConstant {
     }
 
     @RequestMapping(path = "/notice/list", method = RequestMethod.GET)
-    public String getNoticeList(Model model) {
+    public String getNoticeList() {
+        Map<String,Object> res = new HashMap<>();
+
         User user = hostHolder.getUser();
 
         // 查询评论类通知
@@ -171,7 +173,7 @@ public class MessageController implements CommunityConstant {
             int unread = messageService.findNoticeUnreadCount(user.getId(), TOPIC_COMMENT);
             messageVO.put("unread", unread);
         }
-        model.addAttribute("commentNotice", messageVO);
+        res.put("commentNotice", messageVO);
 
         // 查询点赞类通知
         message = messageService.findLatestNotice(user.getId(), TOPIC_LIKE);
@@ -193,7 +195,7 @@ public class MessageController implements CommunityConstant {
             int unread = messageService.findNoticeUnreadCount(user.getId(), TOPIC_LIKE);
             messageVO.put("unread", unread);
         }
-        model.addAttribute("likeNotice", messageVO);
+        res.put("likeNotice", messageVO);
 
         // 查询关注类通知
         message = messageService.findLatestNotice(user.getId(), TOPIC_FOLLOW);
@@ -214,23 +216,23 @@ public class MessageController implements CommunityConstant {
             int unread = messageService.findNoticeUnreadCount(user.getId(), TOPIC_FOLLOW);
             messageVO.put("unread", unread);
         }
-        model.addAttribute("followNotice", messageVO);
+        res.put("followNotice", messageVO);
 
         // 查询未读消息数量
         int letterUnreadCount = messageService.findLetterUnreadCount(user.getId(), null);
-        model.addAttribute("letterUnreadCount", letterUnreadCount);
+        res.put("letterUnreadCount", letterUnreadCount);
         int noticeUnreadCount = messageService.findNoticeUnreadCount(user.getId(), null);
-        model.addAttribute("noticeUnreadCount", noticeUnreadCount);
+        res.put("noticeUnreadCount", noticeUnreadCount);
 
-        return "/site/notice";
+        return CommunityUtil.getJSONString(0,"成功！",res);
     }
 
     @RequestMapping(path = "/notice/detail/{topic}", method = RequestMethod.GET)
-    public String getNoticeDetail(@PathVariable("topic") String topic, Page page, Model model) {
+    public String getNoticeDetail(@PathVariable("topic") String topic, Page page) {
+        Map<String,Object> res = new HashMap<>();
         User user = hostHolder.getUser();
 
         page.setLimit(5);
-        page.setPath("/notice/detail/" + topic);
         page.setRows(messageService.findNoticeCount(user.getId(), topic));
 
         List<Message> noticeList = messageService.findNotices(user.getId(), topic, page.getOffset(), page.getLimit());
@@ -253,7 +255,7 @@ public class MessageController implements CommunityConstant {
                 noticeVoList.add(map);
             }
         }
-        model.addAttribute("notices", noticeVoList);
+        res.put("notices", noticeVoList);
 
         // 设置已读
         List<Integer> ids = getLetterIds(noticeList);
@@ -261,6 +263,6 @@ public class MessageController implements CommunityConstant {
             messageService.readMessage(ids);
         }
 
-        return "/site/notice-detail";
+        return CommunityUtil.getJSONString(0,"成功",res);
     }
 }
