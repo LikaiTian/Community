@@ -1,59 +1,30 @@
-2023-07-05 14:14:42,502 INFO [main] c.n.c.KafkaTests [StartupInfoLogger.java:50] Starting KafkaTests on LAPTOP-0D2L6532 with PID 8836 (started by memory in C:\Users\memory\Desktop\community)
-2023-07-05 14:14:42,512 INFO [main] c.n.c.KafkaTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
-2023-07-05 14:14:44,447 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-07-05 14:14:44,452 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
-2023-07-05 14:14:44,780 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 319ms. Found 1 repository interfaces.
-2023-07-05 14:14:44,800 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-07-05 14:14:44,801 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
-2023-07-05 14:14:44,844 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository.
-2023-07-05 14:14:44,844 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
-2023-07-05 14:14:45,803 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$22b389d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-07-05 14:14:46,012 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f01784d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-07-05 14:14:46,260 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-0D2L6532 with PID 6072 (C:\Users\memory\Desktop\community\target\classes started by memory in C:\Users\memory\Desktop\community)
-2023-07-05 14:14:46,265 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
-2023-07-05 14:14:46,361 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-05 14:14:46,361 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-05 14:14:49,022 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-07-05 14:14:49,025 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
-2023-07-05 14:14:49,260 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 228ms. Found 1 repository interfaces.
-2023-07-05 14:14:49,278 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-07-05 14:14:49,280 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
-2023-07-05 14:14:49,309 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository.
-2023-07-05 14:14:49,309 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2023-07-05 14:14:50,738 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$36334461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-07-05 14:14:50,855 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$628132de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-07-05 14:14:51,220 INFO [main] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
-2023-07-05 14:14:51,221 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
-2023-07-05 14:14:51,223 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
-2023-07-05 14:14:51,224 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
-2023-07-05 14:14:51,225 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
-2023-07-05 14:14:51,226 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
-2023-07-05 14:14:53,145 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2023-07-05 14:14:53,177 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-05 14:14:53,195 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-05 14:14:53,196 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
-2023-07-05 14:14:53,603 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-05 14:14:53,603 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 7242 ms
-2023-07-05 14:14:58,575 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
-2023-07-05 14:14:58,577 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
-2023-07-05 14:14:58,577 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
-2023-07-05 14:14:58,579 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
-2023-07-05 14:14:58,579 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
-2023-07-05 14:14:58,579 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
-2023-07-05 14:14:58,817 INFO [main] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
-2023-07-05 14:15:01,293 INFO [restartedMain] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
-2023-07-05 14:15:03,269 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2023-07-05 14:15:03,963 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2023-07-05 14:15:04,891 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2023-07-05 14:15:05,530 INFO [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2023-07-05 14:15:05,869 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2023-07-05 14:15:06,282 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:87] 
+2023-07-06 15:05:53,916 INFO [main] c.n.c.ThreadPoolTests [StartupInfoLogger.java:50] Starting ThreadPoolTests on LAPTOP-0D2L6532 with PID 12072 (started by memory in C:\Users\memory\Desktop\community)
+2023-07-06 15:05:53,922 INFO [main] c.n.c.ThreadPoolTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2023-07-06 15:05:56,223 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-06 15:05:56,227 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-07-06 15:05:56,506 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 271ms. Found 1 repository interfaces.
+2023-07-06 15:05:56,525 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-06 15:05:56,528 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-07-06 15:05:56,564 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository.
+2023-07-06 15:05:56,565 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2023-07-06 15:05:57,304 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$ec507893] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-06 15:05:57,372 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$189e6710] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-06 15:06:00,013 INFO [main] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
+2023-07-06 15:06:00,016 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2023-07-06 15:06:00,017 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2023-07-06 15:06:00,018 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2023-07-06 15:06:00,019 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2023-07-06 15:06:00,019 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2023-07-06 15:06:03,990 INFO [main] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
+2023-07-06 15:06:08,683 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-07-06 15:06:09,471 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-06 15:06:11,319 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:87] 
 
-Using generated security password: 3e8e77a9-60f2-450a-8af7-80c49c7ccd26
+Using generated security password: 3491c4a3-38e1-4328-8310-15f61f6aba77
 
-2023-07-05 14:15:06,457 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: Ant [pattern='/resources/**'], []
-2023-07-05 14:15:06,641 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6920fa35, org.springframework.security.web.context.SecurityContextPersistenceFilter@41f61188, org.springframework.security.web.header.HeaderWriterFilter@5a23b9d1, org.springframework.security.web.csrf.CsrfFilter@16602333, org.springframework.security.web.authentication.logout.LogoutFilter@52a3eef8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79454d8e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b9c9bf5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19542115, org.springframework.security.web.session.SessionManagementFilter@6785786d, org.springframework.security.web.access.ExceptionTranslationFilter@311453ab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@167bae0b]
-2023-07-05 14:15:06,950 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+2023-07-06 15:06:11,457 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: Ant [pattern='/resources/**'], []
+2023-07-06 15:06:11,635 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17a5ae7b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bbfd42f, org.springframework.security.web.header.HeaderWriterFilter@78ab63b5, org.springframework.security.web.authentication.logout.LogoutFilter@55300b93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b6939e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4687c184, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e4dddee, org.springframework.security.web.session.SessionManagementFilter@1e2c0292, org.springframework.security.web.access.ExceptionTranslationFilter@79454d8e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16b2d182]
+2023-07-06 15:06:11,969 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
 	auto.commit.interval.ms = 3000
 	auto.offset.reset = latest
 	bootstrap.servers = [localhost:9092]
@@ -120,89 +91,5 @@ Using generated security password: 3e8e77a9-60f2-450a-8af7-80c49c7ccd26
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2023-07-05 14:15:07,054 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
-2023-07-05 14:15:07,055 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
-2023-07-05 14:15:07,667 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:87] 
-
-Using generated security password: 1aefd6bb-3340-4493-941d-0ad8c8b6f185
-
-2023-07-05 14:15:07,758 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: Ant [pattern='/resources/**'], []
-2023-07-05 14:15:07,816 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26b75940, org.springframework.security.web.context.SecurityContextPersistenceFilter@b517b0c, org.springframework.security.web.header.HeaderWriterFilter@6b7af32c, org.springframework.security.web.csrf.CsrfFilter@58dc18d5, org.springframework.security.web.authentication.logout.LogoutFilter@66c114c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@720f209a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58726a42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@538ec1b2, org.springframework.security.web.session.SessionManagementFilter@36bedeaa, org.springframework.security.web.access.ExceptionTranslationFilter@2aa52d99, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ea0bdd]
-2023-07-05 14:15:08,029 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
-	auto.commit.interval.ms = 3000
-	auto.offset.reset = latest
-	bootstrap.servers = [localhost:9092]
-	check.crcs = true
-	client.id = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = true
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = test-consumer-group
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
-	ssl.endpoint.identification.algorithm = https
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLS
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2023-07-05 14:15:08,111 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
-2023-07-05 14:15:08,111 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
-2023-07-05 14:16:07,278 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2023-07-05 14:16:08,276 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2023-07-05 14:16:09,371 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-05 14:16:09,415 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-05 14:16:10,320 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-06 15:06:12,086 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2023-07-06 15:06:12,087 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5

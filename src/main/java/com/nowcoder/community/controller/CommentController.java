@@ -9,7 +9,9 @@ import com.nowcoder.community.service.DiscussPostService;
 import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.util.CommunityUtil;
 import com.nowcoder.community.util.HostHolder;
+import com.nowcoder.community.util.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -32,6 +34,9 @@ public class CommentController implements CommunityConstant {
 
     @Autowired
     private EventProducer producer;
+
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     /**
      * 参数四个：
@@ -73,6 +78,10 @@ public class CommentController implements CommunityConstant {
                     .setEventId(comment.getEntityId());
 
             producer.fireEvent(event);
+
+            // 计算帖子分数
+            String redisKey = RedisKeyUtil.getPostScoreKey();
+            redisTemplate.opsForSet().add(redisKey,comment.getEntityId());
         }
 
         return CommunityUtil.getJSONString(0,"添加评论成功！");
